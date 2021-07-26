@@ -21,7 +21,7 @@ Aryan Agarwal
 Rajat Singh
 Saaransh Agarwal
 Sarthak Kohli
-Samudh BG
+Samrudh BG
 
 Team 3
 Dheeraj Agarwal
