@@ -1,8 +1,8 @@
 # Speech Emotion Recognition
 
 # Mentors 
-[Aditya Gupta
-Arpit Verma](# mentors)
+Aditya Gupta
+Arpit Verma
 
 **Teams**
 
