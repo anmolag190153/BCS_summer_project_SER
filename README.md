@@ -73,13 +73,13 @@ Feature extraction is important in modeling because it converts audio files into
 
 # Model Implementation
 
-MLP (Multi-Layer Perceptron) Model
+**MLP (Multi-Layer Perceptron) Model:**
 The  arrays containing features of the audios are given as an input to the MLP Classifier that has been  initialized. The Classifier identifies different categories in the datasets  and classifies them into different emotions.
 
-Convolutional Neural Network (CNN)
+**Convolutional Neural Network (CNN):**
 The activation layer called as the RELU layer is  followed by the pooling layer. The specificity of the CNN layer is  learnt from the functions of the activation layer. 
 
-RNN-LSTM Model
+**RNN-LSTM Model:**
 We used RMSProp optimizer to train the RNN-LSTM model, all  the experiments were carried with a fixed learning rate. Batch  Normalization is applied over every layer and the  activation function used is the SoftMax activation function.
 
 # Results
