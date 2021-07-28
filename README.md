@@ -1,6 +1,6 @@
 # Speech Emotion Recognition
 
-[# Mentors](# mentors)
+# Mentors [Mentors](# mentors)
 Aditya Gupta
 Arpit Verma
 
