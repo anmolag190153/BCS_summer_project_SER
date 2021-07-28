@@ -94,6 +94,21 @@ The poster can be viewed at the following link:
 https://drive.google.com/file/d/1BMaU_J68fACNt-fm1vPc5KO0vJqWQ2WH/view
 
 
+# References
+1. Python basics: https://github.com/bcs-iitk/BCS_Workshop_Apr_20/tree/master/Python_Tutorial. 
+-Shashi Kant Gupta, founder BCS. 
+2. Intro to ML: https://youtu.be/KNAWp2S3w94 Basic CV with ML: https://youtu.be/bemDFpNooA8 
+3. Intro to CNN: https://youtu.be/x_VrgWTKkiM  Intro to DL: https://youtu.be/njKP3FqW3Sk
+4. Feature Extraction: https://www.kaggle.com/ashishpatel26/feature-extraction-from-audio , https://youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0 ,           https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53
+5. Research paper: https://ijesc.org/upload/bc86f90a8f1d88219646b9072e155be4.Speech%20Emotion%20Recognition%20using%20MLP%20Classifier.pdf
+6. Research Paper on SER using CNN: https://www.researchgate.net/publication/341922737_Multimodal_speech_emotion_recognition_and_classification_using_convolutional_neural_network_techniques
+7. K Fold Cross Validation: https://machinelearningmastery.com/k-fold-cross-validation/
+8. Research Paper for LSTM Model in SER: http://www.jcreview.com/fulltext/197-1594073480.pdf?1625291827
+9. Dataset: https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio.
+
+
+
+
 
 
 
