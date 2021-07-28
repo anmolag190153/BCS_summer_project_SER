@@ -59,25 +59,6 @@ In this project, using RAVDESS dataset (which contains around 1500 audio file in
 2. Building and training the model on the training data, followed by testing on test data.
 3. Testing the model on live voices and collecting the results.
 
-# Results
-The accuracies obtained by different teams  are as follows:
-
-**Team 1**
-MLP Model: 63%, CNN Model:73%, LSTM Model: 72%
-
-**Team 2**
-MLP Model: 60%, CNN Model:70%, LSTM Model: 60%
-
-**Team 3**
-MLP Model: 62%, CNN Model:71%, LSTM Model: 68%
-
-**Team 4**
-MLP Model: 71%, CNN Model:78%, LSTM Model: 75%
-
-**Team 5**
-MLP Model: 66%, CNN Model:72%, LSTM Model: 66% (Emotion recognition)
-MLP Model: 99%, CNN Model:99.5%, LSTM Model: 97% (Gender recognition)
-
 # Dataset
 The RAVDESS is a validated multimodal database of emotional speech and song. The database is gender balanced consisting of 24 professional actors, vocalizing lexically-matched statements in a neutral North American accent. Speech includes calm, happy, sad, angry, fearful, surprise, and disgust expressions, and song contains calm, happy, sad, angry, and fearful emotions. All conditions are available in face-and-voice, face-only, and voice-only formats.
 
@@ -100,6 +81,25 @@ The activation layer called as the RELU layer is  followed by the pooling layer.
 
 RNN-LSTM Model
 We used RMSProp optimizer to train the RNN-LSTM model, all  the experiments were carried with a fixed learning rate. Batch  Normalization is applied over every layer and the  activation function used is the SoftMax activation function.
+
+# Results
+The accuracies obtained by different teams  are as follows:
+
+**Team 1**
+MLP Model: 63%, CNN Model:73%, LSTM Model: 72%
+
+**Team 2**
+MLP Model: 60%, CNN Model:70%, LSTM Model: 60%
+
+**Team 3**
+MLP Model: 62%, CNN Model:71%, LSTM Model: 68%
+
+**Team 4**
+MLP Model: 71%, CNN Model:78%, LSTM Model: 75%
+
+**Team 5**
+MLP Model: 66%, CNN Model:72%, LSTM Model: 66% (Emotion recognition)
+MLP Model: 99%, CNN Model:99.5%, LSTM Model: 97% (Gender recognition)
 
 # Demonstration
 The video demonstration of the project can be found on the following link:
