@@ -1,68 +1,68 @@
 # Speech Emotion Recognition
 
-# Mentors 
-1. Aditya Gupta
+## Mentors 
+1. Aditya Gupta,
 2. Arpit Verma
 
-# Teams
+## Teams
 
 **Team 1** 
-Anand Patwa
-Aryan Singh
-Darshit Trevadia
-Pushpanshu Tripathi
-Shreyasi Mandal
-Parth Govil
+Anand Patwa,
+Aryan Singh,
+Darshit Trevadia,
+Pushpanshu Tripathi,
+Shreyasi Mandal,
+Parth Govil,
 Aakarshika Singh
 
 **Team 2**
-Aarjav Jain
-Aryan Agarwal
-Rajat Singh
-Saaransh Agarwal
-Sarthak Kohli
+Aarjav Jain,
+Aryan Agarwal,
+Rajat Singh.
+Saaransh Agarwal,
+Sarthak Kohli,
 Samrudh BG
 
 **Team 3**
-Dheeraj Agarwal
-Viplav Patel
-Mirge Saurabh Arun
-Samriddhi Gupta
-Varun Singh
-Nitesh Pandey
+Dheeraj Agarwal,
+Viplav Patel,
+Mirge Saurabh Arun,
+Samriddhi Gupta,
+Varun Singh,
+Nitesh Pandey,
 Rashmi GR
 
 **Team 4**
-Anmol Agarwal
-Srajan Jain
-Rishabh Mukati
-Pranav Singh
-Sarah Kapoor
+Anmol Agarwal,
+Srajan Jain,
+Rishabh Mukati,
+Pranav Singh,
+Sarah Kapoor,
 Sahil Bansal
 
 **Team 5**
-Gaurav Kumar
-Tarun Agarwal
-Ankit Yadav
-Harsh Patel
-Gulshan Kumar
+Gaurav Kumar,
+Tarun Agarwal,
+Ankit Yadav,
+Harsh Patel,
+Gulshan Kumar,
 Aakash Kumar Bhoi
 
-# Abstract
+## Abstract
 Detection of emotions is natural for humans, but it is a very difficult task for computers, since accessing the depth behind content is difficult and that’s what speech emotion recognition (SER) sets out to do. It is a system through which various audio speech files are classified into different emotions such as happy, sad, anger and neutral by computers.
 
-# Objective
+## Objective
 In this project, using RAVDESS dataset (which contains around 1500 audio file inputs from 24 different actors (12 male and 12 female) who recorded short audios in 8 different emotions) we will train an NLP-based model which will be able to detect among the 8 basic emotions, as well as the gender of the speaker i.e. Male voice or Female voice. After training we can deploy this model for predicting with live voices.
 
-# Deliverables
+## Deliverables
 1. Learn the basics of Python, ML/DL, NLP, librosa and sklearn; literature review; analyzing the dataset; and feature extraction. 
 2. Building and training the model on the training data, followed by testing on test data.
 3. Testing the model on live voices and collecting the results.
 
-# Dataset
+## Dataset
 The RAVDESS is a validated multimodal database of emotional speech and song. The database is gender balanced consisting of 24 professional actors, vocalizing lexically-matched statements in a neutral North American accent. Speech includes calm, happy, sad, angry, fearful, surprise, and disgust expressions, and song contains calm, happy, sad, angry, and fearful emotions. All conditions are available in face-and-voice, face-only, and voice-only formats.
 
-# Feature Extraction
+## Feature Extraction
 Feature extraction is important in modeling because it converts audio files into a format that can be understood by models.
 
 1. MFCC (Mel-Frequency Cepstral Coefficients)- It is a representation of the short-term power spectrum of a sound, based on linear cosine transformation of a log power spectrum on nonlinear mel frequency scale.
@@ -71,7 +71,7 @@ Feature extraction is important in modeling because it converts audio files into
 4. Zero Crossing Rate (ZCR)- It is the rate at which a signal changes from positive to zero to negative or from negative to zero to positive.
 5. Spectral Centroid- It is the center of 'gravity' of the spectrum. It is a measure used in digital signal processing to characterize a spectrum.
 
-# Model Implementation
+## Model Implementation
 
 **MLP (Multi-Layer Perceptron) Model:**
 The  arrays containing features of the audios are given as an input to the MLP Classifier that has been  initialized. The Classifier identifies different categories in the datasets  and classifies them into different emotions.
@@ -82,7 +82,7 @@ The activation layer called as the RELU layer is  followed by the pooling layer.
 **RNN-LSTM Model:**
 We used RMSProp optimizer to train the RNN-LSTM model, all  the experiments were carried with a fixed learning rate. Batch  Normalization is applied over every layer and the  activation function used is the SoftMax activation function.
 
-# Results
+## Results
 The accuracies obtained by different teams  are as follows:
 
 **Team 1**
@@ -95,28 +95,29 @@ MLP Model: 60%, CNN Model:70%, LSTM Model: 60%
 MLP Model: 62%, CNN Model:71%, LSTM Model: 68%
 
 **Team 4**
-MLP Model: 71%, CNN Model:78%, LSTM Model: 75%
+Emotion Recognition:  MLP Model: 71%, CNN Model:78%, LSTM Model: 75%; 
+Gender Recognition: MLP Model: 99%
 
 **Team 5**
-MLP Model: 66%, CNN Model:72%, LSTM Model: 66% (Emotion recognition)
+MLP Model: 66%, CNN Model:72%, LSTM Model: 66% (Emotion recognition); 
 MLP Model: 99%, CNN Model:99.5%, LSTM Model: 97% (Gender recognition)
 
-# Demonstration
+## Demonstration
 The video demonstration of the project can be found on the following link:
 https://drive.google.com/drive/folders/1t0T0X54XUQ5zpvyOXhztZbLY6y9wd9nN?usp=sharing
 
 
-# Documentation
+## Documentation
 The documentation can be accessed at the following link:
 https://www.overleaf.com/project/60cc4cd9e461496da6c8ce1c
 
 
-# Poster
+## Poster
 The poster can be viewed at the following link:
 https://drive.google.com/file/d/1BMaU_J68fACNt-fm1vPc5KO0vJqWQ2WH/view
 
 
-# References
+## References
 1. Python basics: https://github.com/bcs-iitk/BCS_Workshop_Apr_20/tree/master/Python_Tutorial. 
 -Shashi Kant Gupta, founder BCS. 
 2. Intro to ML: https://youtu.be/KNAWp2S3w94 Basic CV with ML: https://youtu.be/bemDFpNooA8 
